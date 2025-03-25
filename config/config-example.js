@@ -15,8 +15,17 @@
  */
 
 exports.bindaddress = '0.0.0.0'; // Accetta connessioni su tutte le interfacce
-exports.port = process.env.PORT || 8000; // Usa la porta definita dall'ambiente o 8000 come default
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 4000;
 
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
 /**
  * workers - the number of networking child processes to spawn
  *   This should be no greater than the number of threads available on your
