@@ -341,6 +341,44 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			'Ursaring', 'Vulpix-Base', 'Arena Trap', 'Magnet Pull', 'Moody', 'Shadow Tag', 'Baton Pass',
 		],
 	},
+	{
+		name: "[Gen 9] Regulation V",
+		mod: 'gen9',
+		gameType: 'doubles',
+		searchShow: true,
+		tournamentShow: true,
+		rated: true,
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Force Open Team Sheets'],
+		banlist: [
+			'Terastalization', // Disables Terastalization
+			'Dire Claw', // Bans the move Dire Claw
+			'Commander'
+
+		],
+		restricted: [
+			'Paradox' // Allows Paradox Pokémon
+		],
+	},
+	{
+		name: "[Gen 9] Regulation V Bo3",
+		mod: 'gen9',
+		gameType: 'doubles',
+		searchShow: true,
+		tournamentShow: true,
+		rated: true,
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Force Open Team Sheets', 'Best of = 3'
+		],
+		banlist: [
+			'Terastalization', // Disables Terastalization
+			'Dire Claw', // Bans the move Dire Claw
+			'Commander'
+
+		],
+		restricted: [
+			'Paradox' // Allows Paradox Pokémon
+		],
+	}
+
 
 	// Pet Mods
 	///////////////////////////////////////////////////////////////////
