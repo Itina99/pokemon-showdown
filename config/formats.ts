@@ -348,11 +348,11 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		searchShow: true,
 		tournamentShow: true,
 		rated: true,
-		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Force Open Team Sheets'],
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Force Open Team Sheets', 'Best of = 3', 'Terastal Clause'],
 		banlist: [
-			'Terastalization', // Disables Terastalization
 			'Dire Claw', // Bans the move Dire Claw
-			'Commander'
+			'Commander',
+			'Sub-Legendary'
 
 		],
 		restricted: [
@@ -366,18 +366,18 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		searchShow: true,
 		tournamentShow: true,
 		rated: true,
-		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Force Open Team Sheets', 'Best of = 3'
-		],
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Force Open Team Sheets', 'Best of = 3', 'Terastal Clause'],
 		banlist: [
-			'Terastalization', // Disables Terastalization
+			 // Disables Terastalization
 			'Dire Claw', // Bans the move Dire Claw
-			'Commander'
+			'Commander',
+			'Sub-Legendary'
 
 		],
 		restricted: [
 			'Paradox' // Allows Paradox Pokémon
 		],
-	}
+	},
 
 
 	// Pet Mods
