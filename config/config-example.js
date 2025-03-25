@@ -5,7 +5,7 @@
  *
  * @type {number}
  */
-exports.port = 8000;
+/*exports.port = 8000;
 
 /**
  * The server address - the address at which Pokemon Showdown should be hosting
@@ -13,7 +13,9 @@ exports.port = 8000;
  *
  * @type {string}
  */
-exports.bindaddress = '0.0.0.0';
+
+exports.bindaddress = '0.0.0.0'; // Accetta connessioni su tutte le interfacce
+exports.port = process.env.PORT || 8000; // Usa la porta definita dall'ambiente o 8000 come default
 
 /**
  * workers - the number of networking child processes to spawn
