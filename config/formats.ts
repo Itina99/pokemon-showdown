@@ -348,7 +348,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		searchShow: true,
 		tournamentShow: true,
 		rated: true,
-		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Force Open Team Sheets', 'Best of = 3', 'Terastal Clause'],
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Force Open Team Sheets', 'Terastal Clause'],
 		banlist: [
 			'Dire Claw', // Bans the move Dire Claw
 			'Commander',
